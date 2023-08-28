@@ -50,7 +50,8 @@ body { margin: 0; padding: 0; }
         // add a source layer for NYC borough boundaries
         map.addSource('development-localplan', {
             type: 'geojson',
-            data: 'data/development-localplan.json'
+            data: 'https://raw.githubusercontent.com/bmichel99/mm/development-localplan.json'
+'
         });
 
         map.addLayer({
